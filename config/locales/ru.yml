@@ -1,0 +1,26 @@
+ru:
+  next: "Вперед"
+  previous: "Назад"
+  name: "Название"
+  body: "Текст"
+  link_url: "Ссылка"
+  image: "Картинка"
+  image_file_name: "Названия файла картинки"
+  published: "Опубликованно"
+  position: "Позиция"
+  y: "Да"
+  n: "Нет"
+
+  activerecord:
+    models:
+      spree/slide: "Слайд"
+
+  spree_slider:
+    config_name: "Слайды"
+    config_description: "Редактировать слайды"
+    title: "Слайды"
+    new_slide: "Новый слайд"
+    editing_slide: "Редактирование слайдов"
+    placeholder_name: "Оставить пустым, чтобы использовать название продукта"
+    placeholder_link_url: "Оставить пустым, чтобы использовать страницу продукта"
+    image_tip: "По умолчанию - первая картинка продукта"
