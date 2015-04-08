@@ -3,7 +3,7 @@ class Spree::Slide < ActiveRecord::Base
   has_attached_file :image
   validates_attachment :image, content_type: { content_type: ["image/jpg", "image/jpeg", "image/png", "image/gif"] }
   scope :published, -> { where(published: true).order('position ASC') }
-
+  acts_as_list
   belongs_to :product, touch: true
 
   def initialize(attrs = nil)

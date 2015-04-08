@@ -10,10 +10,15 @@ ru:
   position: "Позиция"
   y: "Да"
   n: "Нет"
+  product: "Продукт"
+  create: "Создать"
 
   activerecord:
     models:
       spree/slide: "Слайд"
+
+  spree:
+    published: "Опубликованно"
 
   spree_slider:
     config_name: "Слайды"
